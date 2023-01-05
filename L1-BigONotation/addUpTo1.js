@@ -3,7 +3,7 @@ function addUpto(n) {
     for (let i = 1; i <= n; i++) {
         total += i
     }
-    console.log(total)
+    return (total)
 }
 
-addUpto(100)
+console.log(addUpto(6))
